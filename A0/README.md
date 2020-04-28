@@ -1,0 +1,1 @@
+This was written for the first Algorithms Lab(CS29003) by Hardik Tibrewal. This prints the calendar for a given year given the year and the day of the week on 1st January in that year. Linked lists were used to emulate the calendar format.
