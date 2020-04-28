@@ -1,0 +1,1 @@
+This was written by Hardik Tibrewal for Algorithms Lab(CS29003). The repo contains 2 codes, written to analyse the asymptotic running times of different algorithms. The first program calculates the number of high and low energy neutrons after fission, and the second program detects the presence of a sequence of numbers in the order c ... a ... b such that a < b < c.
