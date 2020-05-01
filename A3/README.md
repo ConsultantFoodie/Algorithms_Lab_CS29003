@@ -1,0 +1,1 @@
+This is the fourth assignment for Algorithms Lab(CS29003). It finds the region of visibility of multiple non-parallel lines as seen from y=PLUS_INFINITY. Two algorithms implementes, first is O(n^2), second is O(n lgn).
