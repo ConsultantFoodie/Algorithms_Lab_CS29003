@@ -1,0 +1,1 @@
+This was written for the ninth assignment of Algorithms Lab(CS29003). We make a multi-heap as described in the text by writing custom functions, then use a variant of heapsort to sort a given sequence.
