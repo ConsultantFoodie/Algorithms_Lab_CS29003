@@ -1,0 +1,1 @@
+This was written for the 8th assignment of Algorithms Lab(CS29003). Given a sequence which generates a BST, it finds all the possible sequences which generate the same BST as the original sequence. It then checks if the generated sequences are actually giving the same BST.
