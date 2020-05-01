@@ -1,0 +1,1 @@
+This was written as the fifth assignment of Algorithms Lab(CS29003). This piece of code utilises greedy algorithms to calculate how to reduce a number to 1 by following certain steps. The first 3 functions are not globally optimum, but the fourth function is globally optimum.

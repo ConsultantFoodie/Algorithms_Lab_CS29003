@@ -1,0 +1,1123 @@
+----------------------------------------------------------------------------------------------------
+SAMPLE 1
+----------------------------------------------------------------------------------------------------
+n = 1596
+
++++ Greedy 1
+    Start     : 1596    
+    Divide    : 798
+    Divide    : 399
+    Decrement : 398
+    Divide    : 199
+    Decrement : 198
+    Divide    : 99
+    Decrement : 98
+    Divide    : 49
+    Decrement : 48
+    Divide    : 24
+    Divide    : 12
+    Divide    : 6
+    Divide    : 3
+    Decrement : 2
+    Divide    : 1
+--- Number of steps = 15
+
++++ Greedy 2
+    Start     : 1596
+    Divide    : 798
+    Divide    : 399
+    Increment : 400
+    Divide    : 200
+    Divide    : 100
+    Divide    : 50
+    Divide    : 25
+    Decrement : 24
+    Divide    : 12
+    Divide    : 6
+    Divide    : 3
+    Decrement : 2
+    Divide    : 1
+--- Number of steps = 13
+
+k = 5
+-1 8 4 6 -6 
+
++++ Greedy 3
+    Start     : 1596
+    Divide    : 798
+    Divide    : 399
+    Add -1    : 398
+    Divide    : 199
+    Add -1    : 198
+    Divide    : 99
+    Add -1    : 98
+    Divide    : 49
+    Add -1    : 48
+    Divide    : 24
+    Divide    : 12
+    Divide    : 6
+    Divide    : 3
+    Add -1    : 2
+    Divide    : 1
+--- Number of steps = 15
+
++++ Optimal
+    Start     : 1596
+    Add  4    : 1600
+    Divide    : 800
+    Divide    : 400
+    Divide    : 200
+    Divide    : 100
+    Divide    : 50
+    Divide    : 25
+    Add -6    : 19
+    Add -6    : 13
+    Add -6    : 7
+    Add -6    : 1
+--- Number of steps = 11
+
+----------------------------------------------------------------------------------------------------
+SAMPLE 2
+----------------------------------------------------------------------------------------------------
+n = 1902
+
++++ Greedy 1
+    Start     : 1902    
+    Divide    : 951
+    Decrement : 950
+    Divide    : 475
+    Decrement : 474
+    Divide    : 237
+    Decrement : 236
+    Divide    : 118
+    Divide    : 59
+    Decrement : 58
+    Divide    : 29
+    Decrement : 28
+    Divide    : 14
+    Divide    : 7
+    Decrement : 6
+    Divide    : 3
+    Decrement : 2
+    Divide    : 1
+--- Number of steps = 17
+
++++ Greedy 2
+    Start     : 1902
+    Divide    : 951
+    Increment : 952
+    Divide    : 476
+    Divide    : 238
+    Divide    : 119
+    Increment : 120
+    Divide    : 60
+    Divide    : 30
+    Divide    : 15
+    Increment : 16
+    Divide    : 8
+    Divide    : 4
+    Divide    : 2
+    Divide    : 1
+--- Number of steps = 14
+
+k = 5
+-1 9 6 -4 -5 
+
++++ Greedy 3
+    Start     : 1902
+    Divide    : 951
+    Add  9    : 960
+    Divide    : 480
+    Divide    : 240
+    Divide    : 120
+    Divide    : 60
+    Divide    : 30
+    Divide    : 15
+    Add  9    : 24
+    Divide    : 12
+    Divide    : 6
+    Divide    : 3
+    Add -1    : 2
+    Divide    : 1
+--- Number of steps = 14
+
++++ Optimal
+    Start     : 1902
+    Divide    : 951
+    Add  9    : 960
+    Divide    : 480
+    Divide    : 240
+    Divide    : 120
+    Divide    : 60
+    Divide    : 30
+    Divide    : 15
+    Add -4    : 11
+    Add -5    : 6
+    Add -5    : 1
+--- Number of steps = 11
+
+----------------------------------------------------------------------------------------------------
+SAMPLE 3
+----------------------------------------------------------------------------------------------------
+n = 3644
+
++++ Greedy 1
+    Start     : 3644    
+    Divide    : 1822
+    Divide    : 911
+    Decrement : 910
+    Divide    : 455
+    Decrement : 454
+    Divide    : 227
+    Decrement : 226
+    Divide    : 113
+    Decrement : 112
+    Divide    : 56
+    Divide    : 28
+    Divide    : 14
+    Divide    : 7
+    Decrement : 6
+    Divide    : 3
+    Decrement : 2
+    Divide    : 1
+--- Number of steps = 17
+
++++ Greedy 2
+    Start     : 3644
+    Divide    : 1822
+    Divide    : 911
+    Increment : 912
+    Divide    : 456
+    Divide    : 228
+    Divide    : 114
+    Divide    : 57
+    Decrement : 56
+    Divide    : 28
+    Divide    : 14
+    Divide    : 7
+    Increment : 8
+    Divide    : 4
+    Divide    : 2
+    Divide    : 1
+--- Number of steps = 15
+
+k = 5
+1 -2 -5 -6 -1 
+
++++ Greedy 3
+    Start     : 3644
+    Divide    : 1822
+    Divide    : 911
+    Add  1    : 912
+    Divide    : 456
+    Divide    : 228
+    Divide    : 114
+    Divide    : 57
+    Add -1    : 56
+    Divide    : 28
+    Divide    : 14
+    Divide    : 7
+    Add  1    : 8
+    Divide    : 4
+    Divide    : 2
+    Divide    : 1
+--- Number of steps = 15
+
++++ Optimal
+    Start     : 3644
+    Divide    : 1822
+    Divide    : 911
+    Add -5    : 906
+    Divide    : 453
+    Add -5    : 448
+    Divide    : 224
+    Divide    : 112
+    Divide    : 56
+    Divide    : 28
+    Divide    : 14
+    Divide    : 7
+    Add -6    : 1
+--- Number of steps = 12
+
+----------------------------------------------------------------------------------------------------
+SAMPLE 4
+----------------------------------------------------------------------------------------------------
+n = 7777
+
++++ Greedy 1
+    Start     : 7777    
+    Decrement : 7776
+    Divide    : 3888
+    Divide    : 1944
+    Divide    : 972
+    Divide    : 486
+    Divide    : 243
+    Decrement : 242
+    Divide    : 121
+    Decrement : 120
+    Divide    : 60
+    Divide    : 30
+    Divide    : 15
+    Decrement : 14
+    Divide    : 7
+    Decrement : 6
+    Divide    : 3
+    Decrement : 2
+    Divide    : 1
+--- Number of steps = 18
+
++++ Greedy 2
+    Start     : 7777
+    Decrement : 7776
+    Divide    : 3888
+    Divide    : 1944
+    Divide    : 972
+    Divide    : 486
+    Divide    : 243
+    Increment : 244
+    Divide    : 122
+    Divide    : 61
+    Decrement : 60
+    Divide    : 30
+    Divide    : 15
+    Increment : 16
+    Divide    : 8
+    Divide    : 4
+    Divide    : 2
+    Divide    : 1
+--- Number of steps = 17
+
+k = 5
+1 2 6 -6 -8 
+
++++ Greedy 3
+    Start     : 7777
+    Add  1    : 7778
+    Divide    : 3889
+    Add  1    : 3890
+    Divide    : 1945
+    Add  1    : 1946
+    Divide    : 973
+    Add  1    : 974
+    Divide    : 487
+    Add  1    : 488
+    Divide    : 244
+    Divide    : 122
+    Divide    : 61
+    Add  1    : 62
+    Divide    : 31
+    Add  1    : 32
+    Divide    : 16
+    Divide    : 8
+    Divide    : 4
+    Divide    : 2
+    Divide    : 1
+--- Number of steps = 20
+
++++ Optimal
+    Start     : 7777
+    Add  1    : 7778
+    Add  6    : 7784
+    Add -8    : 7776
+    Divide    : 3888
+    Divide    : 1944
+    Divide    : 972
+    Divide    : 486
+    Add -6    : 480
+    Divide    : 240
+    Divide    : 120
+    Divide    : 60
+    Divide    : 30
+    Divide    : 15
+    Add -6    : 9
+    Add -8    : 1
+--- Number of steps = 15
+
+----------------------------------------------------------------------------------------------------
+SAMPLE 5
+----------------------------------------------------------------------------------------------------
+n = 19686
+
++++ Greedy 1
+    Start     : 19686   
+    Divide    : 9843
+    Decrement : 9842
+    Divide    : 4921
+    Decrement : 4920
+    Divide    : 2460
+    Divide    : 1230
+    Divide    : 615
+    Decrement : 614
+    Divide    : 307
+    Decrement : 306
+    Divide    : 153
+    Decrement : 152
+    Divide    : 76
+    Divide    : 38
+    Divide    : 19
+    Decrement : 18
+    Divide    : 9
+    Decrement : 8
+    Divide    : 4
+    Divide    : 2
+    Divide    : 1
+--- Number of steps = 21
+
++++ Greedy 2
+    Start     : 19686
+    Divide    : 9843
+    Increment : 9844
+    Divide    : 4922
+    Divide    : 2461
+    Decrement : 2460
+    Divide    : 1230
+    Divide    : 615
+    Increment : 616
+    Divide    : 308
+    Divide    : 154
+    Divide    : 77
+    Decrement : 76
+    Divide    : 38
+    Divide    : 19
+    Increment : 20
+    Divide    : 10
+    Divide    : 5
+    Decrement : 4
+    Divide    : 2
+    Divide    : 1
+--- Number of steps = 20
+
+k = 5
+1 -8 -7 -4 9 
+
++++ Greedy 3
+    Start     : 19686
+    Divide    : 9843
+    Add -7    : 9836
+    Divide    : 4918
+    Divide    : 2459
+    Add -7    : 2452
+    Divide    : 1226
+    Divide    : 613
+    Add -7    : 606
+    Divide    : 303
+    Add  1    : 304
+    Divide    : 152
+    Divide    : 76
+    Divide    : 38
+    Divide    : 19
+    Add -7    : 12
+    Divide    : 6
+    Divide    : 3
+    Add  1    : 4
+    Divide    : 2
+    Divide    : 1
+--- Number of steps = 20
+
++++ Optimal
+    Start     : 19686
+    Divide    : 9843
+    Add  1    : 9844
+    Add -4    : 9840
+    Divide    : 4920
+    Divide    : 2460
+    Divide    : 1230
+    Divide    : 615
+    Add -7    : 608
+    Divide    : 304
+    Divide    : 152
+    Divide    : 76
+    Divide    : 38
+    Divide    : 19
+    Add -7    : 12
+    Add -7    : 5
+    Add -4    : 1
+--- Number of steps = 16
+
+----------------------------------------------------------------------------------------------------
+SAMPLE 6
+----------------------------------------------------------------------------------------------------
+n = 179655
+
++++ Greedy 1
+    Start     : 179655  
+    Decrement : 179654
+    Divide    : 89827
+    Decrement : 89826
+    Divide    : 44913
+    Decrement : 44912
+    Divide    : 22456
+    Divide    : 11228
+    Divide    : 5614
+    Divide    : 2807
+    Decrement : 2806
+    Divide    : 1403
+    Decrement : 1402
+    Divide    : 701
+    Decrement : 700
+    Divide    : 350
+    Divide    : 175
+    Decrement : 174
+    Divide    : 87
+    Decrement : 86
+    Divide    : 43
+    Decrement : 42
+    Divide    : 21
+    Decrement : 20
+    Divide    : 10
+    Divide    : 5
+    Decrement : 4
+    Divide    : 2
+    Divide    : 1
+--- Number of steps = 28
+
++++ Greedy 2
+    Start     : 179655
+    Increment : 179656
+    Divide    : 89828
+    Divide    : 44914
+    Divide    : 22457
+    Decrement : 22456
+    Divide    : 11228
+    Divide    : 5614
+    Divide    : 2807
+    Increment : 2808
+    Divide    : 1404
+    Divide    : 702
+    Divide    : 351
+    Increment : 352
+    Divide    : 176
+    Divide    : 88
+    Divide    : 44
+    Divide    : 22
+    Divide    : 11
+    Increment : 12
+    Divide    : 6
+    Divide    : 3
+    Decrement : 2
+    Divide    : 1
+--- Number of steps = 23
+
+k = 5
+-1 -4 -5 2 -6 
+
++++ Greedy 3
+    Start     : 179655
+    Add -5    : 179650
+    Divide    : 89825
+    Add -1    : 89824
+    Divide    : 44912
+    Divide    : 22456
+    Divide    : 11228
+    Divide    : 5614
+    Divide    : 2807
+    Add -5    : 2802
+    Divide    : 1401
+    Add -1    : 1400
+    Divide    : 700
+    Divide    : 350
+    Divide    : 175
+    Add -5    : 170
+    Divide    : 85
+    Add -5    : 80
+    Divide    : 40
+    Divide    : 20
+    Divide    : 10
+    Divide    : 5
+    Add -1    : 4
+    Divide    : 2
+    Divide    : 1
+--- Number of steps = 24
+
++++ Optimal
+    Start     : 179655
+    Add -1    : 179654
+    Add -6    : 179648
+    Divide    : 89824
+    Divide    : 44912
+    Divide    : 22456
+    Divide    : 11228
+    Divide    : 5614
+    Add  2    : 5616
+    Divide    : 2808
+    Divide    : 1404
+    Divide    : 702
+    Add  2    : 704
+    Divide    : 352
+    Divide    : 176
+    Divide    : 88
+    Divide    : 44
+    Divide    : 22
+    Divide    : 11
+    Add -4    : 7
+    Add -6    : 1
+--- Number of steps = 20
+
+----------------------------------------------------------------------------------------------------
+SAMPLE 7
+----------------------------------------------------------------------------------------------------
+n = 1614139
+
++++ Greedy 1
+    Start     : 1614139 
+    Decrement : 1614138
+    Divide    : 807069
+    Decrement : 807068
+    Divide    : 403534
+    Divide    : 201767
+    Decrement : 201766
+    Divide    : 100883
+    Decrement : 100882
+    Divide    : 50441
+    Decrement : 50440
+    Divide    : 25220
+    Divide    : 12610
+    Divide    : 6305
+    Decrement : 6304
+    Divide    : 3152
+    Divide    : 1576
+    Divide    : 788
+    Divide    : 394
+    Divide    : 197
+    Decrement : 196
+    Divide    : 98
+    Divide    : 49
+    Decrement : 48
+    Divide    : 24
+    Divide    : 12
+    Divide    : 6
+    Divide    : 3
+    Decrement : 2
+    Divide    : 1
+--- Number of steps = 29
+
++++ Greedy 2
+    Start     : 1614139
+    Increment : 1614140
+    Divide    : 807070
+    Divide    : 403535
+    Increment : 403536
+    Divide    : 201768
+    Divide    : 100884
+    Divide    : 50442
+    Divide    : 25221
+    Decrement : 25220
+    Divide    : 12610
+    Divide    : 6305
+    Decrement : 6304
+    Divide    : 3152
+    Divide    : 1576
+    Divide    : 788
+    Divide    : 394
+    Divide    : 197
+    Decrement : 196
+    Divide    : 98
+    Divide    : 49
+    Decrement : 48
+    Divide    : 24
+    Divide    : 12
+    Divide    : 6
+    Divide    : 3
+    Decrement : 2
+    Divide    : 1
+--- Number of steps = 27
+
+k = 5
+1 -2 -7 -8 -3 
+
++++ Greedy 3
+    Start     : 1614139
+    Add -3    : 1614136
+    Divide    : 807068
+    Divide    : 403534
+    Divide    : 201767
+    Add -7    : 201760
+    Divide    : 100880
+    Divide    : 50440
+    Divide    : 25220
+    Divide    : 12610
+    Divide    : 6305
+    Add -7    : 6298
+    Divide    : 3149
+    Add -7    : 3142
+    Divide    : 1571
+    Add -3    : 1568
+    Divide    : 784
+    Divide    : 392
+    Divide    : 196
+    Divide    : 98
+    Divide    : 49
+    Add -7    : 42
+    Divide    : 21
+    Add -7    : 14
+    Divide    : 7
+    Add  1    : 8
+    Divide    : 4
+    Divide    : 2
+    Divide    : 1
+--- Number of steps = 28
+
++++ Optimal
+    Start     : 1614139
+    Add -3    : 1614136
+    Divide    : 807068
+    Divide    : 403534
+    Divide    : 201767
+    Add -7    : 201760
+    Divide    : 100880
+    Divide    : 50440
+    Divide    : 25220
+    Divide    : 12610
+    Add -2    : 12608
+    Divide    : 6304
+    Divide    : 3152
+    Divide    : 1576
+    Divide    : 788
+    Divide    : 394
+    Divide    : 197
+    Add -2    : 195
+    Add -3    : 192
+    Divide    : 96
+    Divide    : 48
+    Divide    : 24
+    Divide    : 12
+    Add -8    : 4
+    Add -3    : 1
+--- Number of steps = 24
+
+----------------------------------------------------------------------------------------------------
+SAMPLE 8
+----------------------------------------------------------------------------------------------------
+n = 1975369
+
++++ Greedy 1
+    Start     : 1975369 
+    Decrement : 1975368
+    Divide    : 987684
+    Divide    : 493842
+    Divide    : 246921
+    Decrement : 246920
+    Divide    : 123460
+    Divide    : 61730
+    Divide    : 30865
+    Decrement : 30864
+    Divide    : 15432
+    Divide    : 7716
+    Divide    : 3858
+    Divide    : 1929
+    Decrement : 1928
+    Divide    : 964
+    Divide    : 482
+    Divide    : 241
+    Decrement : 240
+    Divide    : 120
+    Divide    : 60
+    Divide    : 30
+    Divide    : 15
+    Decrement : 14
+    Divide    : 7
+    Decrement : 6
+    Divide    : 3
+    Decrement : 2
+    Divide    : 1
+--- Number of steps = 28
+
++++ Greedy 2
+    Start     : 1975369
+    Decrement : 1975368
+    Divide    : 987684
+    Divide    : 493842
+    Divide    : 246921
+    Decrement : 246920
+    Divide    : 123460
+    Divide    : 61730
+    Divide    : 30865
+    Decrement : 30864
+    Divide    : 15432
+    Divide    : 7716
+    Divide    : 3858
+    Divide    : 1929
+    Decrement : 1928
+    Divide    : 964
+    Divide    : 482
+    Divide    : 241
+    Decrement : 240
+    Divide    : 120
+    Divide    : 60
+    Divide    : 30
+    Divide    : 15
+    Increment : 16
+    Divide    : 8
+    Divide    : 4
+    Divide    : 2
+    Divide    : 1
+--- Number of steps = 27
+
+k = 5
+1 2 8 4 6 
+
++++ Greedy 3
+    Start     : 1975369
+    Add  1    : 1975370
+    Divide    : 987685
+    Add  1    : 987686
+    Divide    : 493843
+    Add  1    : 493844
+    Divide    : 246922
+    Divide    : 123461
+    Add  1    : 123462
+    Divide    : 61731
+    Add  1    : 61732
+    Divide    : 30866
+    Divide    : 15433
+    Add  1    : 15434
+    Divide    : 7717
+    Add  1    : 7718
+    Divide    : 3859
+    Add  1    : 3860
+    Divide    : 1930
+    Divide    : 965
+    Add  1    : 966
+    Divide    : 483
+    Add  1    : 484
+    Divide    : 242
+    Divide    : 121
+    Add  1    : 122
+    Divide    : 61
+    Add  1    : 62
+    Divide    : 31
+    Add  1    : 32
+    Divide    : 16
+    Divide    : 8
+    Divide    : 4
+    Divide    : 2
+    Divide    : 1
+--- Number of steps = 34
+
++++ Optimal
+    Start     : 1975369
+    Add  1    : 1975370
+    Add  6    : 1975376
+    Divide    : 987688
+    Divide    : 493844
+    Divide    : 246922
+    Add  6    : 246928
+    Divide    : 123464
+    Divide    : 61732
+    Divide    : 30866
+    Divide    : 15433
+    Add  1    : 15434
+    Add  6    : 15440
+    Divide    : 7720
+    Divide    : 3860
+    Divide    : 1930
+    Add  6    : 1936
+    Divide    : 968
+    Divide    : 484
+    Divide    : 242
+    Divide    : 121
+    Add  1    : 122
+    Add  6    : 128
+    Divide    : 64
+    Divide    : 32
+    Divide    : 16
+    Divide    : 8
+    Divide    : 4
+    Divide    : 2
+    Divide    : 1
+--- Number of steps = 29
+
+----------------------------------------------------------------------------------------------------
+SAMPLE 9
+----------------------------------------------------------------------------------------------------
+n = 2809881
+
++++ Greedy 1
+    Start     : 2809881 
+    Decrement : 2809880
+    Divide    : 1404940
+    Divide    : 702470
+    Divide    : 351235
+    Decrement : 351234
+    Divide    : 175617
+    Decrement : 175616
+    Divide    : 87808
+    Divide    : 43904
+    Divide    : 21952
+    Divide    : 10976
+    Divide    : 5488
+    Divide    : 2744
+    Divide    : 1372
+    Divide    : 686
+    Divide    : 343
+    Decrement : 342
+    Divide    : 171
+    Decrement : 170
+    Divide    : 85
+    Decrement : 84
+    Divide    : 42
+    Divide    : 21
+    Decrement : 20
+    Divide    : 10
+    Divide    : 5
+    Decrement : 4
+    Divide    : 2
+    Divide    : 1
+--- Number of steps = 29
+
++++ Greedy 2
+    Start     : 2809881
+    Decrement : 2809880
+    Divide    : 1404940
+    Divide    : 702470
+    Divide    : 351235
+    Increment : 351236
+    Divide    : 175618
+    Divide    : 87809
+    Decrement : 87808
+    Divide    : 43904
+    Divide    : 21952
+    Divide    : 10976
+    Divide    : 5488
+    Divide    : 2744
+    Divide    : 1372
+    Divide    : 686
+    Divide    : 343
+    Increment : 344
+    Divide    : 172
+    Divide    : 86
+    Divide    : 43
+    Increment : 44
+    Divide    : 22
+    Divide    : 11
+    Increment : 12
+    Divide    : 6
+    Divide    : 3
+    Decrement : 2
+    Divide    : 1
+--- Number of steps = 28
+
+k = 5
+1 -3 4 -6 -8 
+
++++ Greedy 3
+    Start     : 2809881
+    Add -3    : 2809878
+    Divide    : 1404939
+    Add -3    : 1404936
+    Divide    : 702468
+    Divide    : 351234
+    Divide    : 175617
+    Add -3    : 175614
+    Divide    : 87807
+    Add  1    : 87808
+    Divide    : 43904
+    Divide    : 21952
+    Divide    : 10976
+    Divide    : 5488
+    Divide    : 2744
+    Divide    : 1372
+    Divide    : 686
+    Divide    : 343
+    Add  1    : 344
+    Divide    : 172
+    Divide    : 86
+    Divide    : 43
+    Add -3    : 40
+    Divide    : 20
+    Divide    : 10
+    Divide    : 5
+    Add -3    : 2
+    Divide    : 1
+--- Number of steps = 27
+
++++ Optimal
+    Start     : 2809881
+    Add -3    : 2809878
+    Divide    : 1404939
+    Add -3    : 1404936
+    Add -8    : 1404928
+    Divide    : 702464
+    Divide    : 351232
+    Divide    : 175616
+    Divide    : 87808
+    Divide    : 43904
+    Divide    : 21952
+    Divide    : 10976
+    Divide    : 5488
+    Divide    : 2744
+    Divide    : 1372
+    Divide    : 686
+    Add -6    : 680
+    Add -8    : 672
+    Divide    : 336
+    Divide    : 168
+    Divide    : 84
+    Divide    : 42
+    Divide    : 21
+    Add -3    : 18
+    Divide    : 9
+    Add -8    : 1
+--- Number of steps = 25
+
+----------------------------------------------------------------------------------------------------
+SAMPLE 10
+----------------------------------------------------------------------------------------------------
+n = 17985183
+
++++ Greedy 1
+    Start     : 17985183
+    Decrement : 17985182
+    Divide    : 8992591
+    Decrement : 8992590
+    Divide    : 4496295
+    Decrement : 4496294
+    Divide    : 2248147
+    Decrement : 2248146
+    Divide    : 1124073
+    Decrement : 1124072
+    Divide    : 562036
+    Divide    : 281018
+    Divide    : 140509
+    Decrement : 140508
+    Divide    : 70254
+    Divide    : 35127
+    Decrement : 35126
+    Divide    : 17563
+    Decrement : 17562
+    Divide    : 8781
+    Decrement : 8780
+    Divide    : 4390
+    Divide    : 2195
+    Decrement : 2194
+    Divide    : 1097
+    Decrement : 1096
+    Divide    : 548
+    Divide    : 274
+    Divide    : 137
+    Decrement : 136
+    Divide    : 68
+    Divide    : 34
+    Divide    : 17
+    Decrement : 16
+    Divide    : 8
+    Divide    : 4
+    Divide    : 2
+    Divide    : 1
+--- Number of steps = 37
+
++++ Greedy 2
+    Start     : 17985183
+    Increment : 17985184
+    Divide    : 8992592
+    Divide    : 4496296
+    Divide    : 2248148
+    Divide    : 1124074
+    Divide    : 562037
+    Decrement : 562036
+    Divide    : 281018
+    Divide    : 140509
+    Decrement : 140508
+    Divide    : 70254
+    Divide    : 35127
+    Increment : 35128
+    Divide    : 17564
+    Divide    : 8782
+    Divide    : 4391
+    Increment : 4392
+    Divide    : 2196
+    Divide    : 1098
+    Divide    : 549
+    Decrement : 548
+    Divide    : 274
+    Divide    : 137
+    Decrement : 136
+    Divide    : 68
+    Divide    : 34
+    Divide    : 17
+    Decrement : 16
+    Divide    : 8
+    Divide    : 4
+    Divide    : 2
+    Divide    : 1
+--- Number of steps = 32
+
+k = 5
+-1 -4 2 -6 6 
+
++++ Greedy 3
+    Start     : 17985183
+    Add -1    : 17985182
+    Divide    : 8992591
+    Add -1    : 8992590
+    Divide    : 4496295
+    Add -1    : 4496294
+    Divide    : 2248147
+    Add -1    : 2248146
+    Divide    : 1124073
+    Add -1    : 1124072
+    Divide    : 562036
+    Divide    : 281018
+    Divide    : 140509
+    Add -1    : 140508
+    Divide    : 70254
+    Divide    : 35127
+    Add -1    : 35126
+    Divide    : 17563
+    Add -1    : 17562
+    Divide    : 8781
+    Add -1    : 8780
+    Divide    : 4390
+    Divide    : 2195
+    Add -1    : 2194
+    Divide    : 1097
+    Add -1    : 1096
+    Divide    : 548
+    Divide    : 274
+    Divide    : 137
+    Add -1    : 136
+    Divide    : 68
+    Divide    : 34
+    Divide    : 17
+    Add -1    : 16
+    Divide    : 8
+    Divide    : 4
+    Divide    : 2
+    Divide    : 1
+--- Number of steps = 37
+
++++ Optimal
+    Start     : 17985183
+    Add -1    : 17985182
+    Add -6    : 17985176
+    Divide    : 8992588
+    Divide    : 4496294
+    Add -6    : 4496288
+    Divide    : 2248144
+    Divide    : 1124072
+    Divide    : 562036
+    Divide    : 281018
+    Add  6    : 281024
+    Divide    : 140512
+    Divide    : 70256
+    Divide    : 35128
+    Divide    : 17564
+    Divide    : 8782
+    Divide    : 4391
+    Add -1    : 4390
+    Add -6    : 4384
+    Divide    : 2192
+    Divide    : 1096
+    Divide    : 548
+    Divide    : 274
+    Divide    : 137
+    Add -1    : 136
+    Divide    : 68
+    Divide    : 34
+    Divide    : 17
+    Add -4    : 13
+    Add -6    : 7
+    Add -6    : 1
+--- Number of steps = 30
+----------------------------------------------------------------------------------------------------
+
