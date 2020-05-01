@@ -1,0 +1,557 @@
+----------------------------------------------------------------------------------------------------
+Sample 1
+----------------------------------------------------------------------------------------------------
+n                    : 16
+Capital          (C) : 2381
+Costs            (c) : 38 46 98 90 78 94 77 59 20 68 38 47 96 45 52 51
+Selling price    (s) : 71 74 96 54 86 83 76 54 74 93 77 76 55 64 61 82
+Selling price    (t) : 12 28 17 26 20 29 13 30 11 22 20 38 27 29 26 39
+Maintenance cost (r) :  4  2  2  3  2  5  5  3  1  1  1  3  4  2  5  3
+Probabilities    (p) : 0.5731078550 0.5795111657 0.9268756625 0.7397095031 0.5253368402 0.5480902496 0.5854849508 0.9694755836 0.7586803088 0.7453277471 0.7922243691 0.5547825550 0.9107875602 0.7691855669 0.5033146180 0.5501874236
+Probabilities    (q) : 0.4871230108 0.3618905397 0.6091108115 0.5513095882 0.3468367168 0.1423434215 0.0820588242 0.8360261820 0.3282304770 0.2774640301 0.6711438510 0.1214282799 0.8695248946 0.5229406836 0.3617678793 0.3485256578
+
++++ Part 1: Best buying option
+    Machine   0:   4 copies, cost =    152
+    Machine   1:   3 copies, cost =    138
+    Machine   2:   1 copies, cost =     98
+    Machine   3:   1 copies, cost =     90
+    Machine   4:   3 copies, cost =    234
+    Machine   5:   2 copies, cost =    188
+    Machine   6:   3 copies, cost =    231
+    Machine   7:   1 copies, cost =     59
+    Machine   8:   7 copies, cost =    140
+    Machine   9:   4 copies, cost =    272
+    Machine  10:   5 copies, cost =    190
+    Machine  11:   3 copies, cost =    141
+    Machine  12:   1 copies, cost =     96
+    Machine  13:   2 copies, cost =     90
+    Machine  14:   2 copies, cost =    104
+    Machine  15:   3 copies, cost =    153
+--- Total buying cost             =   2376
+--- Expected total profit         =    887.50659222
+
++++ Part 2: Best buying option
+    Machine   0:   5 copies, cost =    190  [Maintenance not needed]
+    Machine   1:   5 copies, cost =    230  [Maintenance not needed]
+    Machine   2:   4 copies, cost =    392  [Maintenance needed]
+    Machine   3:   1 copies, cost =     90  [Maintenance needed]
+    Machine   4:   2 copies, cost =    156  [Maintenance needed]
+    Machine   5:   1 copies, cost =     94  [Maintenance needed]
+    Machine   6:   1 copies, cost =     77  [Maintenance needed]
+    Machine   7:   1 copies, cost =     59  [Maintenance needed]
+    Machine   8:   3 copies, cost =     60  [Maintenance needed]
+    Machine   9:   3 copies, cost =    204  [Maintenance needed]
+    Machine  10:   5 copies, cost =    190  [Maintenance needed]
+    Machine  11:   1 copies, cost =     47  [Maintenance needed]
+    Machine  12:   1 copies, cost =     96  [Maintenance not needed]
+    Machine  13:   3 copies, cost =    135  [Maintenance needed]
+    Machine  14:   3 copies, cost =    156  [Maintenance not needed]
+    Machine  15:   4 copies, cost =    204  [Maintenance not needed]
+--- Total buying cost             =   2380
+--- Expected total profit         =    999.14364318
+----------------------------------------------------------------------------------------------------
+Sample 2
+----------------------------------------------------------------------------------------------------
+n                    : 32
+Capital          (C) : 5457
+Costs            (c) : 36 66 97 84 31 43 25 20 55 69 62 30 42 68 72 62 20 41 96 61 92 82 80 55 54 70 55 31 79 33 48 36
+Selling price    (s) : 93 75 67 69 59 64 88 73 97 63 81 69 83 70 56 80 99 53 63 72 86 86 88 98 97 80 83 68 88 86 62 59
+Selling price    (t) : 36 36 37 39 38 34 19 10 26 15 17 16 18 21 37 26 20 20 25 37 17 35 39 22 34 35 31 35 25 30 28 27
+Maintenance cost (r) :  4  2  2  1  2  4  1  5  2  4  4  1  3  3  4  5  1  1  2  3  2  2  2  3  4  4  1  3  2  2  3  1
+Probabilities    (p) : 0.7648044973 0.5204928867 0.9281088283 0.6746403131 0.5970423087 0.7584209483 0.9833113011 0.9897596030 0.8244488581 0.8454443951 0.7041867812 0.7699693245 0.7082903316 0.7221859536 0.6016748043 0.9383513960 0.8086374739 0.8125254653 0.6448626531 0.6117453769 0.5214771556 0.8904968809 0.8295883771 0.6887622877 0.6936495987 0.6535881542 0.7884303437 0.9406742244 0.6456223129 0.5620917627 0.8554962538 0.6240982672
+Probabilities    (q) : 0.4881783985 0.3828062643 0.6111888672 0.3272276229 0.1888406062 0.5438559615 0.4784244117 0.6975574803 0.6167476986 0.4804137674 0.6280713344 0.5592363861 0.6426711160 0.5391228655 0.2356564064 0.7829253488 0.6428923105 0.4925757062 0.0952313302 0.3840130540 0.4957798282 0.5273581736 0.7583615952 0.3181113357 0.5236231880 0.4859585639 0.4388783726 0.4439908261 0.5288024898 0.4150375133 0.5815662452 0.0443937349
+
++++ Part 1: Best buying option
+    Machine   0:   6 copies, cost =    216
+    Machine   1:   3 copies, cost =    198
+    Machine   2:   1 copies, cost =     97
+    Machine   3:   2 copies, cost =    168
+    Machine   4:   3 copies, cost =     93
+    Machine   5:   3 copies, cost =    129
+    Machine   6:   1 copies, cost =     25
+    Machine   7:   1 copies, cost =     20
+    Machine   8:   6 copies, cost =    330
+    Machine   9:   2 copies, cost =    138
+    Machine  10:   4 copies, cost =    248
+    Machine  11:   7 copies, cost =    210
+    Machine  12:   6 copies, cost =    252
+    Machine  13:   3 copies, cost =    204
+    Machine  14:   1 copies, cost =     72
+    Machine  15:   1 copies, cost =     62
+    Machine  16:  11 copies, cost =    220
+    Machine  17:   4 copies, cost =    164
+    Machine  18:   2 copies, cost =    192
+    Machine  19:   3 copies, cost =    183
+    Machine  20:   3 copies, cost =    276
+    Machine  21:   1 copies, cost =     82
+    Machine  22:   2 copies, cost =    160
+    Machine  23:   5 copies, cost =    275
+    Machine  24:   5 copies, cost =    270
+    Machine  25:   3 copies, cost =    210
+    Machine  26:   5 copies, cost =    275
+    Machine  27:   1 copies, cost =     31
+    Machine  28:   3 copies, cost =    237
+    Machine  29:   4 copies, cost =    132
+    Machine  30:   3 copies, cost =    144
+    Machine  31:   4 copies, cost =    144
+--- Total buying cost             =   5457
+--- Expected total profit         =   1814.43283229
+
++++ Part 2: Best buying option
+    Machine   0:   8 copies, cost =    288  [Maintenance not needed]
+    Machine   1:   3 copies, cost =    198  [Maintenance not needed]
+    Machine   2:   1 copies, cost =     97  [Maintenance needed]
+    Machine   3:   2 copies, cost =    168  [Maintenance needed]
+    Machine   4:   1 copies, cost =     31  [Maintenance needed]
+    Machine   5:   5 copies, cost =    215  [Maintenance not needed]
+    Machine   6:   4 copies, cost =    100  [Maintenance needed]
+    Machine   7:   4 copies, cost =     80  [Maintenance needed]
+    Machine   8:   4 copies, cost =    220  [Maintenance needed]
+    Machine   9:   2 copies, cost =    138  [Maintenance needed]
+    Machine  10:   5 copies, cost =    310  [Maintenance not needed]
+    Machine  11:   4 copies, cost =    120  [Maintenance needed]
+    Machine  12:   7 copies, cost =    294  [Maintenance not needed]
+    Machine  13:   3 copies, cost =    204  [Maintenance needed]
+    Machine  14:   1 copies, cost =     72  [Maintenance needed]
+    Machine  15:   2 copies, cost =    124  [Maintenance needed]
+    Machine  16:   7 copies, cost =    140  [Maintenance needed]
+    Machine  17:   3 copies, cost =    123  [Maintenance needed]
+    Machine  18:   1 copies, cost =     96  [Maintenance needed]
+    Machine  19:   2 copies, cost =    122  [Maintenance needed]
+    Machine  20:   3 copies, cost =    276  [Maintenance not needed]
+    Machine  21:   3 copies, cost =    246  [Maintenance needed]
+    Machine  22:   3 copies, cost =    240  [Maintenance needed]
+    Machine  23:   2 copies, cost =    110  [Maintenance needed]
+    Machine  24:   6 copies, cost =    324  [Maintenance not needed]
+    Machine  25:   4 copies, cost =    280  [Maintenance not needed]
+    Machine  26:   3 copies, cost =    165  [Maintenance needed]
+    Machine  27:   2 copies, cost =     62  [Maintenance needed]
+    Machine  28:   4 copies, cost =    316  [Maintenance not needed]
+    Machine  29:   5 copies, cost =    165  [Maintenance not needed]
+    Machine  30:   2 copies, cost =     96  [Maintenance needed]
+    Machine  31:   1 copies, cost =     36  [Maintenance needed]
+--- Total buying cost             =   5456
+--- Expected total profit         =   2061.79485009
+----------------------------------------------------------------------------------------------------
+Sample 3
+----------------------------------------------------------------------------------------------------
+n                    : 64
+Capital          (C) : 7963
+Costs            (c) : 31 63 95 22 95 72 56 29 38 79 81 75 95 53 49 31 78 61 52 97 50 47 82 35 71 24 41 96 28 73 31 54 78 77 23 70 63 71 38 85 82 89 56 95 23 44 85 78 97 24 54 32 40 70 89 80 69 89 63 42 87 55 66 67
+Selling price    (s) : 80 61 54 53 72 70 58 75 77 51 60 80 69 52 53 74 59 87 69 87 57 63 56 78 90 98 54 87 60 78 68 61 80 88 91 82 57 81 52 82 79 81 57 75 84 93 50 73 71 66 81 99 55 73 60 67 89 89 74 82 52 87 94 59
+Selling price    (t) : 29 22 11 22 24 36 36 28 31 25 15 11 17 39 16 15 21 23 30 20 34 19 21 17 35 28 28 19 15 39 26 30 25 12 11 23 35 12 25 34 37 29 36 13 15 12 25 11 14 18 14 34 27 26 27 25 12 36 14 32 15 22 21 18
+Maintenance cost (r) :  1  5  1  5  2  4  4  4  4  5  1  5  3  1  1  5  2  3  5  1  1  3  4  1  2  4  4  3  3  3  5  1  3  2  4  5  5  5  2  1  3  3  2  2  3  3  2  2  4  5  5  4  1  2  5  2  5  1  1  1  3  1  5  2
+Probabilities    (p) : 0.9582896652 0.7136274708 0.9318546145 0.6124339053 0.9219830138 0.7224906379 0.8857598684 0.5164065959 0.9000138912 0.7118483059 0.6441025711 0.7831027474 0.8365788575 0.8079147443 0.6621901375 0.9064379485 0.7128283096 0.9698381687 0.8783090999 0.8458564951 0.9257185307 0.8416665224 0.8464548885 0.8945252150 0.9274800773 0.6994356491 0.6391391322 0.9587912604 0.9681529142 0.9192217530 0.8900623135 0.6019722256 0.8584247152 0.8359600261 0.8565429998 0.6739138198 0.7565872980 0.8917594968 0.8578993871 0.6150819255 0.7290863114 0.8955891649 0.6313993242 0.8041214730 0.9481703597 0.6773724666 0.5769831278 0.7517886335 0.5261198944 0.5108955966 0.8631502853 0.7651714085 0.9459769167 0.6157532740 0.5999410099 0.7323105290 0.8169791996 0.8247937650 0.7941197603 0.7806375855 0.5008340958 0.8053471231 0.6127925921 0.9462932753
+Probabilities    (q) : 0.4127959621 0.6086033733 0.1578399984 0.1460281666 0.4531115268 0.1447531176 0.7680074617 0.3052073689 0.5565999755 0.2361073775 0.3339865897 0.2608378494 0.8221613152 0.7845714115 0.1855280639 0.3166939781 0.1010488052 0.5566752813 0.8312693606 0.8325728339 0.2072802190 0.0411851416 0.2603860809 0.1928609763 0.8232517412 0.3314343536 0.4114754587 0.5271924557 0.4785988490 0.6830454267 0.6571039649 0.3415255607 0.5429040585 0.6941691481 0.1937894977 0.0742223934 0.7524088200 0.4349574445 0.1068643280 0.2658381718 0.3640129385 0.4144041628 0.2943027540 0.0634642359 0.3204951445 0.6574964127 0.1396171505 0.1310631815 0.1426095406 0.3708030575 0.4670266128 0.0414169387 0.4739584854 0.0645624779 0.4824132199 0.2407287633 0.0103089552 0.2263432655 0.3066083318 0.1934025174 0.3948474721 0.1982991170 0.3565352166 0.9061376866
+
++++ Part 1: Best buying option
+    Machine   0:   1 copies, cost =     31
+    Machine   1:   2 copies, cost =    126
+    Machine   2:   1 copies, cost =     95
+    Machine   3:   4 copies, cost =     88
+    Machine   4:   1 copies, cost =     95
+    Machine   5:   1 copies, cost =     72
+    Machine   6:   1 copies, cost =     56
+    Machine   7:   4 copies, cost =    116
+    Machine   8:   2 copies, cost =     76
+    Machine   9:   1 copies, cost =     79
+    Machine  10:   2 copies, cost =    162
+    Machine  11:   3 copies, cost =    225
+    Machine  12:   1 copies, cost =     95
+    Machine  13:   1 copies, cost =     53
+    Machine  14:   3 copies, cost =    147
+    Machine  15:   6 copies, cost =    186
+    Machine  16:   1 copies, cost =     78
+    Machine  17:   1 copies, cost =     61
+    Machine  18:   1 copies, cost =     52
+    Machine  19:   1 copies, cost =     97
+    Machine  20:   1 copies, cost =     50
+    Machine  21:   3 copies, cost =    141
+    Machine  22:   1 copies, cost =     82
+    Machine  23:   6 copies, cost =    210
+    Machine  24:   1 copies, cost =     71
+    Machine  25:   6 copies, cost =    144
+    Machine  26:   2 copies, cost =     82
+    Machine  27:   1 copies, cost =     96
+    Machine  28:   1 copies, cost =     28
+    Machine  29:   1 copies, cost =     73
+    Machine  30:   4 copies, cost =    124
+    Machine  31:   2 copies, cost =    108
+    Machine  32:   1 copies, cost =     78
+    Machine  33:   3 copies, cost =    231
+    Machine  34:  11 copies, cost =    253
+    Machine  35:   3 copies, cost =    210
+    Machine  36:   1 copies, cost =     63
+    Machine  37:   1 copies, cost =     71
+    Machine  38:   1 copies, cost =     38
+    Machine  39:   2 copies, cost =    170
+    Machine  40:   2 copies, cost =    164
+    Machine  41:   1 copies, cost =     89
+    Machine  42:   1 copies, cost =     56
+    Machine  43:   2 copies, cost =    190
+    Machine  44:   8 copies, cost =    184
+    Machine  45:   5 copies, cost =    220
+    Machine  46:   1 copies, cost =     85
+    Machine  47:   3 copies, cost =    234
+    Machine  48:   2 copies, cost =    194
+    Machine  49:   4 copies, cost =     96
+    Machine  50:   4 copies, cost =    216
+    Machine  51:   6 copies, cost =    192
+    Machine  52:   1 copies, cost =     40
+    Machine  53:   2 copies, cost =    140
+    Machine  54:   1 copies, cost =     89
+    Machine  55:   1 copies, cost =     80
+    Machine  56:   4 copies, cost =    276
+    Machine  57:   1 copies, cost =     89
+    Machine  58:   3 copies, cost =    189
+    Machine  59:   4 copies, cost =    168
+    Machine  60:   2 copies, cost =    174
+    Machine  61:   4 copies, cost =    220
+    Machine  62:   3 copies, cost =    198
+    Machine  63:   1 copies, cost =     67
+--- Total buying cost             =   7963
+--- Expected total profit         =   2797.24046199
+
++++ Part 2: Best buying option
+    Machine   0:   3 copies, cost =     93  [Maintenance needed]
+    Machine   1:   4 copies, cost =    252  [Maintenance not needed]
+    Machine   2:   1 copies, cost =     95  [Maintenance needed]
+    Machine   3:   5 copies, cost =    110  [Maintenance not needed]
+    Machine   4:   2 copies, cost =    190  [Maintenance needed]
+    Machine   5:   1 copies, cost =     72  [Maintenance needed]
+    Machine   6:   1 copies, cost =     56  [Maintenance not needed]
+    Machine   7:   5 copies, cost =    145  [Maintenance not needed]
+    Machine   8:   2 copies, cost =     76  [Maintenance needed]
+    Machine   9:   1 copies, cost =     79  [Maintenance needed]
+    Machine  10:   2 copies, cost =    162  [Maintenance needed]
+    Machine  11:   2 copies, cost =    150  [Maintenance needed]
+    Machine  12:   2 copies, cost =    190  [Maintenance not needed]
+    Machine  13:   1 copies, cost =     53  [Maintenance not needed]
+    Machine  14:   2 copies, cost =     98  [Maintenance needed]
+    Machine  15:   2 copies, cost =     62  [Maintenance needed]
+    Machine  16:   1 copies, cost =     78  [Maintenance needed]
+    Machine  17:   3 copies, cost =    183  [Maintenance needed]
+    Machine  18:   3 copies, cost =    156  [Maintenance not needed]
+    Machine  19:   4 copies, cost =    388  [Maintenance not needed]
+    Machine  20:   1 copies, cost =     50  [Maintenance needed]
+    Machine  21:   1 copies, cost =     47  [Maintenance needed]
+    Machine  22:   1 copies, cost =     82  [Maintenance needed]
+    Machine  23:   2 copies, cost =     70  [Maintenance needed]
+    Machine  24:   2 copies, cost =    142  [Maintenance needed]
+    Machine  25:   8 copies, cost =    192  [Maintenance not needed]
+    Machine  26:   3 copies, cost =    123  [Maintenance not needed]
+    Machine  27:   2 copies, cost =    192  [Maintenance needed]
+    Machine  28:   3 copies, cost =     84  [Maintenance needed]
+    Machine  29:   2 copies, cost =    146  [Maintenance needed]
+    Machine  30:   2 copies, cost =     62  [Maintenance needed]
+    Machine  31:   2 copies, cost =    108  [Maintenance needed]
+    Machine  32:   2 copies, cost =    156  [Maintenance needed]
+    Machine  33:   4 copies, cost =    308  [Maintenance needed]
+    Machine  34:   2 copies, cost =     46  [Maintenance needed]
+    Machine  35:   1 copies, cost =     70  [Maintenance needed]
+    Machine  36:   1 copies, cost =     63  [Maintenance not needed]
+    Machine  37:   2 copies, cost =    142  [Maintenance needed]
+    Machine  38:   1 copies, cost =     38  [Maintenance needed]
+    Machine  39:   2 copies, cost =    170  [Maintenance needed]
+    Machine  40:   2 copies, cost =    164  [Maintenance needed]
+    Machine  41:   2 copies, cost =    178  [Maintenance needed]
+    Machine  42:   1 copies, cost =     56  [Maintenance needed]
+    Machine  43:   1 copies, cost =     95  [Maintenance needed]
+    Machine  44:   3 copies, cost =     69  [Maintenance needed]
+    Machine  45:   6 copies, cost =    264  [Maintenance not needed]
+    Machine  46:   1 copies, cost =     85  [Maintenance needed]
+    Machine  47:   2 copies, cost =    156  [Maintenance needed]
+    Machine  48:   1 copies, cost =     97  [Maintenance needed]
+    Machine  49:   5 copies, cost =    120  [Maintenance not needed]
+    Machine  50:   2 copies, cost =    108  [Maintenance needed]
+    Machine  51:   1 copies, cost =     32  [Maintenance needed]
+    Machine  52:   2 copies, cost =     80  [Maintenance needed]
+    Machine  53:   1 copies, cost =     70  [Maintenance needed]
+    Machine  54:   2 copies, cost =    178  [Maintenance not needed]
+    Machine  55:   2 copies, cost =    160  [Maintenance needed]
+    Machine  56:   1 copies, cost =     69  [Maintenance needed]
+    Machine  57:   2 copies, cost =    178  [Maintenance needed]
+    Machine  58:   2 copies, cost =    126  [Maintenance needed]
+    Machine  59:   2 copies, cost =     84  [Maintenance needed]
+    Machine  60:   2 copies, cost =    174  [Maintenance not needed]
+    Machine  61:   2 copies, cost =    110  [Maintenance needed]
+    Machine  62:   4 copies, cost =    264  [Maintenance not needed]
+    Machine  63:   1 copies, cost =     67  [Maintenance not needed]
+--- Total buying cost             =   7963
+--- Expected total profit         =   3788.07412681
+----------------------------------------------------------------------------------------------------
+Sample 4
+----------------------------------------------------------------------------------------------------
+n                    : 128
+Capital          (C) : 17723
+Costs            (c) : 70 93 68 22 35 76 91 64 33 55 61 53 48 92 90 38 97 57 61 45 83 90 50 37 39 57 43 73 68 43 83 71 69 23 49 46 68 28 81 53 82 36 64 35 97 96 30 59 62 20 75 59 82 31 81 95 53 21 64 41 40 33 77 78 51 45 31 35 99 57 78 48 28 54 24 88 70 81 97 97 99 99 47 41 37 92 49 79 65 32 35 50 46 50 34 52 53 74 97 29 36 37 42 42 62 30 53 72 28 25 77 67 51 95 70 44 31 36 60 55 43 54 66 81 27 28 35 30
+Selling price    (s) : 90 61 53 65 86 73 50 64 73 72 56 55 91 99 64 87 86 76 89 61 57 60 65 51 94 66 82 87 98 62 82 58 53 61 97 52 72 89 80 62 82 96 96 73 95 52 59 78 79 88 79 74 74 75 95 76 67 98 86 73 89 83 87 54 83 69 71 67 99 55 80 60 57 98 86 84 87 83 53 84 86 82 71 73 52 95 76 95 78 69 55 66 95 71 92 52 65 77 50 72 61 80 96 53 72 75 70 67 62 84 62 97 72 62 58 52 61 71 79 87 69 88 99 51 84 76 84 87
+Selling price    (t) : 17 29 17 24 12 34 16 10 18 15 14 26 15 12 11 10 21 39 25 30 13 36 22 10 34 20 24 17 37 21 33 31 36 13 29 17 14 19 12 15 26 39 27 35 24 33 37 11 38 25 21 36 38 21 22 23 23 33 32 24 14 18 34 38 31 35 16 11 18 35 25 23 22 23 22 17 21 32 39 22 27 16 37 29 20 25 32 13 23 21 22 14 22 39 21 39 15 27 25 34 36 18 26 18 30 30 20 18 19 16 31 29 33 25 21 18 30 33 10 31 21 26 29 24 18 15 32 11
+Maintenance cost (r) :  1  3  5  5  2  1  3  2  4  1  4  2  3  5  3  5  4  2  5  2  4  5  2  4  4  4  3  2  2  2  3  2  1  3  1  5  5  2  2  3  3  4  1  1  4  5  1  1  1  3  5  1  3  5  5  3  4  2  5  1  1  5  5  4  1  4  3  2  1  2  3  4  2  3  3  4  4  5  2  2  3  3  2  2  4  3  3  5  4  1  3  5  5  2  5  3  5  2  3  4  4  5  2  2  5  3  3  5  3  1  2  5  2  3  5  4  2  4  4  3  4  2  4  2  5  3  3  3
+Probabilities    (p) : 0.5503429594 0.7886330456 0.6283458055 0.8259115852 0.7042810499 0.5626267528 0.8536826048 0.9980818862 0.6882381712 0.6228529541 0.6488762152 0.9378212685 0.9064284008 0.6854915452 0.9321388122 0.5718123080 0.6787062188 0.8449816659 0.6997061368 0.5684960697 0.9005355793 0.8185268938 0.6500619159 0.8870740774 0.5528366028 0.7794662566 0.5895828216 0.6519738341 0.7063460556 0.5383896986 0.8268506184 0.9172232458 0.8140025555 0.5728367856 0.9078376737 0.8336749602 0.9531810130 0.8322709572 0.5064519621 0.7865304951 0.8865272807 0.7377892799 0.8745672046 0.7942981034 0.7244975237 0.7403345805 0.9515046882 0.6937547762 0.5305283347 0.7265573257 0.9430374314 0.8982293389 0.7970959399 0.6896869185 0.6663300391 0.5119487983 0.8982341270 0.6145590868 0.5358792993 0.8834638497 0.6312837855 0.9971922555 0.5881097936 0.7835769887 0.7271101874 0.7469476870 0.7881036861 0.5792100930 0.5315721820 0.8839553056 0.8002440309 0.5713185072 0.8482703729 0.9894896068 0.7336682827 0.6778456211 0.6169866149 0.7483170558 0.7886349919 0.6461502773 0.9772353403 0.6608341076 0.8176934085 0.7963771137 0.6344254197 0.8650445632 0.5695581378 0.6745993759 0.5269866143 0.7960775387 0.7463249072 0.5434227972 0.7421743962 0.6545650617 0.7926158452 0.8376085811 0.6922035519 0.5639797696 0.7599759932 0.7254139032 0.7435555515 0.5737631861 0.9347932688 0.8616287018 0.8548775303 0.9786464965 0.9808857413 0.7317684774 0.5195037313 0.5444656580 0.5176297289 0.5271144600 0.5621924319 0.7088427745 0.9512580989 0.7962992307 0.5211718474 0.6251243076 0.5390419709 0.8292701993 0.6444091162 0.8124176677 0.7193260895 0.9596911238 0.7686371746 0.7445814990 0.9198423684 0.6845695524
+Probabilities    (q) : 0.3997334139 0.4750460576 0.5601247654 0.4273144975 0.3751285874 0.4043467711 0.3895887822 0.5825136081 0.3678726497 0.3020683923 0.0034964086 0.9269023160 0.5126261195 0.3338063887 0.0175293287 0.3481056784 0.3488824365 0.5500213333 0.1504518488 0.0827384174 0.4359667763 0.5340905692 0.4567872258 0.6257753326 0.3164575944 0.3137044119 0.3644098535 0.3925552990 0.6061477460 0.2784442089 0.6225384785 0.9006389117 0.0882282964 0.5484230759 0.5794414132 0.8228034924 0.8749582866 0.6415197245 0.3293490662 0.5733334674 0.2988552357 0.0293730417 0.2963179006 0.5150584323 0.5859264754 0.4870379520 0.3390976262 0.5658617892 0.1595659828 0.7177047495 0.7230153064 0.2872467050 0.6226599192 0.2166884737 0.0451450963 0.1477190114 0.7720707591 0.1916949290 0.1930821256 0.3809045862 0.1205258204 0.9544845365 0.0975233734 0.4168129407 0.3263246374 0.0620732641 0.7861899469 0.3256712099 0.4648838077 0.0284049974 0.6392776486 0.2162840573 0.4626793821 0.2264918350 0.6332226823 0.3824856228 0.6158231219 0.4833307935 0.1833898089 0.3761245684 0.4290438528 0.6385311393 0.5193693593 0.4743942312 0.3386686359 0.3972256575 0.2948904895 0.2955812727 0.2962225212 0.5685342157 0.7178445906 0.3303030381 0.5391904883 0.2325535420 0.5652275352 0.1729622333 0.4962753875 0.5175254044 0.0868580392 0.0188198827 0.0587573937 0.5136322269 0.8207074945 0.2043678448 0.3853328474 0.7740621610 0.0210352812 0.5202413052 0.0415412165 0.5149250141 0.4553268136 0.5196766357 0.5315189544 0.2361431883 0.2527338174 0.5264621488 0.2630423318 0.5272340253 0.0935289162 0.1958465620 0.5956936147 0.6883275311 0.2324342037 0.3714244708 0.2274268410 0.4446701992 0.6133613012 0.6135495418
+
++++ Part 1: Best buying option
+    Machine   0:   3 copies, cost =    210
+    Machine   1:   1 copies, cost =     93
+    Machine   2:   2 copies, cost =    136
+    Machine   3:   6 copies, cost =    132
+    Machine   4:   6 copies, cost =    210
+    Machine   5:   2 copies, cost =    152
+    Machine   6:   1 copies, cost =     91
+    Machine   7:   1 copies, cost =     64
+    Machine   8:   5 copies, cost =    165
+    Machine   9:   3 copies, cost =    165
+    Machine  10:   2 copies, cost =    122
+    Machine  11:   1 copies, cost =     53
+    Machine  12:   4 copies, cost =    192
+    Machine  13:   3 copies, cost =    276
+    Machine  14:   1 copies, cost =     90
+    Machine  15:   4 copies, cost =    152
+    Machine  16:   2 copies, cost =    194
+    Machine  17:   1 copies, cost =     57
+    Machine  18:   4 copies, cost =    244
+    Machine  19:   2 copies, cost =     90
+    Machine  20:   1 copies, cost =     83
+    Machine  21:   1 copies, cost =     90
+    Machine  22:   3 copies, cost =    150
+    Machine  23:   2 copies, cost =     74
+    Machine  24:   4 copies, cost =    156
+    Machine  25:   3 copies, cost =    171
+    Machine  26:   4 copies, cost =    172
+    Machine  27:   3 copies, cost =    219
+    Machine  28:   3 copies, cost =    204
+    Machine  29:   3 copies, cost =    129
+    Machine  30:   1 copies, cost =     83
+    Machine  31:   1 copies, cost =     71
+    Machine  32:   1 copies, cost =     69
+    Machine  33:   4 copies, cost =     92
+    Machine  34:   3 copies, cost =    147
+    Machine  35:   2 copies, cost =     92
+    Machine  36:   1 copies, cost =     68
+    Machine  37:   8 copies, cost =    224
+    Machine  38:   3 copies, cost =    243
+    Machine  39:   3 copies, cost =    159
+    Machine  40:   1 copies, cost =     82
+    Machine  41:   5 copies, cost =    180
+    Machine  42:   3 copies, cost =    192
+    Machine  43:   4 copies, cost =    140
+    Machine  44:   3 copies, cost =    291
+    Machine  45:   1 copies, cost =     96
+    Machine  46:   1 copies, cost =     30
+    Machine  47:   4 copies, cost =    236
+    Machine  48:   2 copies, cost =    124
+    Machine  49:   7 copies, cost =    140
+    Machine  50:   1 copies, cost =     75
+    Machine  51:   1 copies, cost =     59
+    Machine  52:   1 copies, cost =     82
+    Machine  53:   5 copies, cost =    155
+    Machine  54:   3 copies, cost =    243
+    Machine  55:   2 copies, cost =    190
+    Machine  56:   1 copies, cost =     53
+    Machine  57:   5 copies, cost =    105
+    Machine  58:   3 copies, cost =    192
+    Machine  59:   3 copies, cost =    123
+    Machine  60:   5 copies, cost =    200
+    Machine  61:   1 copies, cost =     33
+    Machine  62:   2 copies, cost =    154
+    Machine  63:   1 copies, cost =     78
+    Machine  64:   4 copies, cost =    204
+    Machine  65:   3 copies, cost =    135
+    Machine  66:   6 copies, cost =    186
+    Machine  67:   4 copies, cost =    140
+    Machine  68:   3 copies, cost =    297
+    Machine  69:   1 copies, cost =     57
+    Machine  70:   2 copies, cost =    156
+    Machine  71:   3 copies, cost =    144
+    Machine  72:   4 copies, cost =    112
+    Machine  73:   1 copies, cost =     54
+    Machine  74:   7 copies, cost =    168
+    Machine  75:   3 copies, cost =    264
+    Machine  76:   3 copies, cost =    210
+    Machine  77:   2 copies, cost =    162
+    Machine  78:   1 copies, cost =     97
+    Machine  79:   2 copies, cost =    194
+    Machine  80:   1 copies, cost =     99
+    Machine  81:   2 copies, cost =    198
+    Machine  82:   2 copies, cost =     94
+    Machine  83:   4 copies, cost =    164
+    Machine  84:   3 copies, cost =    111
+    Machine  85:   1 copies, cost =     92
+    Machine  86:   3 copies, cost =    147
+    Machine  87:   3 copies, cost =    237
+    Machine  88:   3 copies, cost =    195
+    Machine  89:   5 copies, cost =    160
+    Machine  90:   3 copies, cost =    105
+    Machine  91:   3 copies, cost =    150
+    Machine  92:   5 copies, cost =    230
+    Machine  93:   2 copies, cost =    100
+    Machine  94:   7 copies, cost =    238
+    Machine  95:   1 copies, cost =     52
+    Machine  96:   3 copies, cost =    159
+    Machine  97:   2 copies, cost =    148
+    Machine  98:   1 copies, cost =     97
+    Machine  99:   4 copies, cost =    116
+    Machine 100:   2 copies, cost =     72
+    Machine 101:   4 copies, cost =    148
+    Machine 102:   2 copies, cost =     84
+    Machine 103:   1 copies, cost =     42
+    Machine 104:   1 copies, cost =     62
+    Machine 105:   1 copies, cost =     30
+    Machine 106:   1 copies, cost =     53
+    Machine 107:   2 copies, cost =    144
+    Machine 108:   3 copies, cost =     84
+    Machine 109:   5 copies, cost =    125
+    Machine 110:   1 copies, cost =     77
+    Machine 111:   3 copies, cost =    201
+    Machine 112:   3 copies, cost =    153
+    Machine 113:   1 copies, cost =     95
+    Machine 114:   1 copies, cost =     70
+    Machine 115:   2 copies, cost =     88
+    Machine 116:   3 copies, cost =     93
+    Machine 117:   3 copies, cost =    108
+    Machine 118:   3 copies, cost =    180
+    Machine 119:   3 copies, cost =    165
+    Machine 120:   4 copies, cost =    172
+    Machine 121:   4 copies, cost =    216
+    Machine 122:   4 copies, cost =    264
+    Machine 123:   1 copies, cost =     81
+    Machine 124:   7 copies, cost =    189
+    Machine 125:   6 copies, cost =    168
+    Machine 126:   2 copies, cost =     70
+    Machine 127:   6 copies, cost =    180
+--- Total buying cost             =  17723
+--- Expected total profit         =   6741.24002406
+
++++ Part 2: Best buying option
+    Machine   0:   3 copies, cost =    210  [Maintenance needed]
+    Machine   1:   1 copies, cost =     93  [Maintenance needed]
+    Machine   2:   3 copies, cost =    204  [Maintenance not needed]
+    Machine   3:   9 copies, cost =    198  [Maintenance not needed]
+    Machine   4:   3 copies, cost =    105  [Maintenance needed]
+    Machine   5:   2 copies, cost =    152  [Maintenance needed]
+    Machine   6:   1 copies, cost =     91  [Maintenance needed]
+    Machine   7:   3 copies, cost =    192  [Maintenance needed]
+    Machine   8:   6 copies, cost =    198  [Maintenance not needed]
+    Machine   9:   2 copies, cost =    110  [Maintenance needed]
+    Machine  10:   1 copies, cost =     61  [Maintenance needed]
+    Machine  11:   1 copies, cost =     53  [Maintenance not needed]
+    Machine  12:   3 copies, cost =    144  [Maintenance needed]
+    Machine  13:   2 copies, cost =    184  [Maintenance needed]
+    Machine  14:   1 copies, cost =     90  [Maintenance needed]
+    Machine  15:   5 copies, cost =    190  [Maintenance not needed]
+    Machine  16:   2 copies, cost =    194  [Maintenance needed]
+    Machine  17:   2 copies, cost =    114  [Maintenance needed]
+    Machine  18:   1 copies, cost =     61  [Maintenance needed]
+    Machine  19:   1 copies, cost =     45  [Maintenance needed]
+    Machine  20:   2 copies, cost =    166  [Maintenance needed]
+    Machine  21:   1 copies, cost =     90  [Maintenance needed]
+    Machine  22:   2 copies, cost =    100  [Maintenance needed]
+    Machine  23:   2 copies, cost =     74  [Maintenance needed]
+    Machine  24:   5 copies, cost =    195  [Maintenance not needed]
+    Machine  25:   2 copies, cost =    114  [Maintenance needed]
+    Machine  26:   5 copies, cost =    215  [Maintenance not needed]
+    Machine  27:   2 copies, cost =    146  [Maintenance needed]
+    Machine  28:   5 copies, cost =    340  [Maintenance not needed]
+    Machine  29:   2 copies, cost =     86  [Maintenance needed]
+    Machine  30:   2 copies, cost =    166  [Maintenance needed]
+    Machine  31:   1 copies, cost =     71  [Maintenance not needed]
+    Machine  32:   1 copies, cost =     69  [Maintenance needed]
+    Machine  33:   5 copies, cost =    115  [Maintenance not needed]
+    Machine  34:   4 copies, cost =    196  [Maintenance needed]
+    Machine  35:   4 copies, cost =    184  [Maintenance not needed]
+    Machine  36:   1 copies, cost =     68  [Maintenance not needed]
+    Machine  37:   5 copies, cost =    140  [Maintenance needed]
+    Machine  38:   2 copies, cost =    162  [Maintenance needed]
+    Machine  39:   3 copies, cost =    159  [Maintenance needed]
+    Machine  40:   2 copies, cost =    164  [Maintenance needed]
+    Machine  41:   1 copies, cost =     36  [Maintenance needed]
+    Machine  42:   2 copies, cost =    128  [Maintenance needed]
+    Machine  43:   3 copies, cost =    105  [Maintenance needed]
+    Machine  44:   4 copies, cost =    388  [Maintenance not needed]
+    Machine  45:   1 copies, cost =     96  [Maintenance not needed]
+    Machine  46:   2 copies, cost =     60  [Maintenance needed]
+    Machine  47:   4 copies, cost =    236  [Maintenance needed]
+    Machine  48:   2 copies, cost =    124  [Maintenance needed]
+    Machine  49:   8 copies, cost =    160  [Maintenance not needed]
+    Machine  50:   2 copies, cost =    150  [Maintenance needed]
+    Machine  51:   2 copies, cost =    118  [Maintenance needed]
+    Machine  52:   2 copies, cost =    164  [Maintenance needed]
+    Machine  53:   2 copies, cost =     62  [Maintenance needed]
+    Machine  54:   1 copies, cost =     81  [Maintenance needed]
+    Machine  55:   1 copies, cost =     95  [Maintenance needed]
+    Machine  56:   2 copies, cost =    106  [Maintenance needed]
+    Machine  57:   2 copies, cost =     42  [Maintenance needed]
+    Machine  58:   1 copies, cost =     64  [Maintenance needed]
+    Machine  59:   3 copies, cost =    123  [Maintenance needed]
+    Machine  60:   2 copies, cost =     80  [Maintenance needed]
+    Machine  61:   1 copies, cost =     33  [Maintenance not needed]
+    Machine  62:   1 copies, cost =     77  [Maintenance needed]
+    Machine  63:   1 copies, cost =     78  [Maintenance needed]
+    Machine  64:   2 copies, cost =    102  [Maintenance needed]
+    Machine  65:   1 copies, cost =     45  [Maintenance needed]
+    Machine  66:   8 copies, cost =    248  [Maintenance not needed]
+    Machine  67:   2 copies, cost =     70  [Maintenance needed]
+    Machine  68:   3 copies, cost =    297  [Maintenance needed]
+    Machine  69:   1 copies, cost =     57  [Maintenance needed]
+    Machine  70:   3 copies, cost =    234  [Maintenance needed]
+    Machine  71:   1 copies, cost =     48  [Maintenance needed]
+    Machine  72:   3 copies, cost =     84  [Maintenance needed]
+    Machine  73:   2 copies, cost =    108  [Maintenance needed]
+    Machine  74:   8 copies, cost =    192  [Maintenance not needed]
+    Machine  75:   2 copies, cost =    176  [Maintenance needed]
+    Machine  76:   4 copies, cost =    280  [Maintenance not needed]
+    Machine  77:   2 copies, cost =    162  [Maintenance needed]
+    Machine  78:   1 copies, cost =     97  [Maintenance needed]
+    Machine  79:   2 copies, cost =    194  [Maintenance needed]
+    Machine  80:   2 copies, cost =    198  [Maintenance needed]
+    Machine  81:   4 copies, cost =    396  [Maintenance not needed]
+    Machine  82:   2 copies, cost =     94  [Maintenance needed]
+    Machine  83:   3 copies, cost =    123  [Maintenance needed]
+    Machine  84:   4 copies, cost =    148  [Maintenance not needed]
+    Machine  85:   2 copies, cost =    184  [Maintenance needed]
+    Machine  86:   2 copies, cost =     98  [Maintenance needed]
+    Machine  87:   2 copies, cost =    158  [Maintenance needed]
+    Machine  88:   3 copies, cost =    195  [Maintenance not needed]
+    Machine  89:   4 copies, cost =    128  [Maintenance needed]
+    Machine  90:   5 copies, cost =    175  [Maintenance not needed]
+    Machine  91:   4 copies, cost =    200  [Maintenance not needed]
+    Machine  92:   7 copies, cost =    322  [Maintenance not needed]
+    Machine  93:   2 copies, cost =    100  [Maintenance needed]
+    Machine  94:   9 copies, cost =    306  [Maintenance not needed]
+    Machine  95:   1 copies, cost =     52  [Maintenance needed]
+    Machine  96:   5 copies, cost =    265  [Maintenance not needed]
+    Machine  97:   3 copies, cost =    222  [Maintenance not needed]
+    Machine  98:   1 copies, cost =     97  [Maintenance needed]
+    Machine  99:   1 copies, cost =     29  [Maintenance needed]
+    Machine 100:   1 copies, cost =     36  [Maintenance needed]
+    Machine 101:   5 copies, cost =    185  [Maintenance not needed]
+    Machine 102:   5 copies, cost =    210  [Maintenance needed]
+    Machine 103:   2 copies, cost =     84  [Maintenance needed]
+    Machine 104:   2 copies, cost =    124  [Maintenance needed]
+    Machine 105:   3 copies, cost =     90  [Maintenance needed]
+    Machine 106:   1 copies, cost =     53  [Maintenance needed]
+    Machine 107:   4 copies, cost =    288  [Maintenance not needed]
+    Machine 108:   1 copies, cost =     28  [Maintenance needed]
+    Machine 109:   5 copies, cost =    125  [Maintenance not needed]
+    Machine 110:   2 copies, cost =    154  [Maintenance not needed]
+    Machine 111:   4 copies, cost =    268  [Maintenance not needed]
+    Machine 112:   3 copies, cost =    153  [Maintenance not needed]
+    Machine 113:   1 copies, cost =     95  [Maintenance needed]
+    Machine 114:   1 copies, cost =     70  [Maintenance needed]
+    Machine 115:   2 copies, cost =     88  [Maintenance needed]
+    Machine 116:   2 copies, cost =     62  [Maintenance needed]
+    Machine 117:   4 copies, cost =    144  [Maintenance not needed]
+    Machine 118:   1 copies, cost =     60  [Maintenance needed]
+    Machine 119:   2 copies, cost =    110  [Maintenance needed]
+    Machine 120:   5 copies, cost =    215  [Maintenance not needed]
+    Machine 121:   4 copies, cost =    216  [Maintenance needed]
+    Machine 122:   2 copies, cost =    132  [Maintenance needed]
+    Machine 123:   1 copies, cost =     81  [Maintenance needed]
+    Machine 124:   2 copies, cost =     54  [Maintenance needed]
+    Machine 125:   3 copies, cost =     84  [Maintenance needed]
+    Machine 126:   3 copies, cost =    105  [Maintenance needed]
+    Machine 127:   7 copies, cost =    210  [Maintenance not needed]
+--- Total buying cost             =  17723
+--- Expected total profit         =   7969.01443555
+

@@ -1,0 +1,1 @@
+This was written for the sixth assignment of Algorithms Lab(CS29003). It uses dynamic programming to calculate the maximum profit that can be made from a given set of machines given certain conditons.
